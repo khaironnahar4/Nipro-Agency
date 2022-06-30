@@ -1,0 +1,707 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  color: #8e8e8e;
+}
+/* header text */
+.head_text {
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #333333;
+  text-align: center;
+}
+/* sub header text */
+.sub_head_text {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333333;
+}
+/* margin */
+.sec_marg {
+  margin-top: 100px;
+}
+.sec_ver_line {
+  border: 1px solid #333333;
+  height: 50px;
+}
+/* inner margin */
+.in_marg {
+  margin-top: 30px;
+}
+
+/* navbar start */
+header {
+  margin: 15px 0;
+}
+.nipro_agency h1 {
+  font-family: "Lato", sans-serif !important;
+  font-size: 30px !important;
+  color: #333333 !important;
+}
+.nav_btn{
+  border: 1px solid #8e8e8e;
+}
+.nav_btn:focus{
+  box-shadow: none;
+  border-color: #333333;
+}
+.nav_list{
+  display: flex;
+}
+.nav ul li {
+  margin: 0 15px;
+}
+.nav ul li a {
+  color: #8e8e8e;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  transition: 0.8s;
+}
+.nav ul li a:hover {
+  color: #333333;
+}
+/* search bar */
+.search {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.search_btn {
+  font-size: 16px;
+  color: #8e8e8e;
+  border: none;
+}
+.search_btn:hover {
+  color: #333333;
+}
+.search_btn::after {
+  display: none;
+}
+/* dropdown menu */
+.src_menu {
+  top: 55px !important;
+  left: -370px !important;
+  min-width: 400px;
+  border: none;
+  background-color: transparent;
+}
+.src_menu input {
+  padding: 10px;
+  border: 1px solid #8e8e8e;
+}
+.src_menu input:focus {
+  border: 1px solid #ced4da;
+  box-shadow: none;
+}
+.src_menu_btn {
+  padding: 8px 10px;
+  border: 1px solid #8e8e8e;
+  border-radius: 0.375rem;
+  background-color: #fff;
+}
+
+/* navbar end */
+
+/* banner start */
+.banner {
+  background-image: url(../image/parallax-1.jpg);
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay_color {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(0, 0, 0, 0) 45%
+  );
+}
+.banr_text {
+  margin: 200px 0 150px;
+}
+.banr_text h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: start;
+}
+.banr_text p {
+  color: #fff;
+  line-height: 30px;
+}
+.lrn_m {
+  width: 28%;
+  background-color: #fff;
+  padding: 15px 30px;
+  cursor: pointer;
+  color: #8e8e8e;
+  transition: 0.3s;
+}
+.lrn_m h2 {
+  font-size: 18px;
+  margin: 0;
+  display: inline-block;
+}
+.lrn_m span {
+  display: inline-block;
+  padding-left: 10px;
+}
+.lrn_m:hover {
+  color: #333333;
+}
+/* button */
+.v_line {
+  border: 1px solid #8e8e8e;
+  height: 20px;
+  margin: 0 2px;
+}
+.v_line_m {
+  border-color: #333333;
+}
+.btn_prev {
+  border: none;
+  color: #8e8e8e;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.btn_prev:hover {
+  color: #333333;
+}
+.btn_next {
+  border: none;
+  color: #8e8e8e;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.btn_next:hover {
+  color: #333333;
+}
+
+/* banner end */
+
+/* welcome to nipro start */
+.sec_head_text {
+  text-align: center;
+}
+.first_col {
+  color: #8e8e8e;
+  border: 1px solid #8e8e8e;
+  padding: 0 15px 30px;
+  transition: 0.5s;
+}
+
+.first_col i {
+  font-size: 50px;
+  margin-top: -9%;
+  padding: 0 5px;
+  background-color: #fff;
+  color: #8e8e8e;
+  transition: 0.5s;
+}
+/* arrow */
+.arrow {
+  color: #8e8e8e;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.arrow h3 {
+  font-size: 16px;
+  display: inline-block;
+}
+.arrow span {
+  font-size: 20px;
+  padding-left: 10px;
+}
+/* hover effects */
+.first_col:hover {
+  border-color: #333333;
+}
+.first_col:hover i {
+  color: #333333;
+}
+.first_col:hover .arrow {
+  color: #333333;
+}
+/* welcome to nipro end */
+
+/* about me start */
+.abt_me_img img {
+  width: 100%;
+}
+.abt_m {
+  width: 30%;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #8e8e8e;
+  transition: 0.3s;
+  border: 1px solid #8e8e8e;
+  transition: 0.3s;
+}
+.abt_m:hover {
+  color: #333333;
+  border-color: #333333;
+}
+.abt_m h2 {
+  font-size: 18px;
+  margin: 0;
+  display: inline-block;
+}
+.abt_m span {
+  padding-left: 10px;
+}
+/* about me end */
+
+/* recent work start */
+#recent_work{
+    background-color: #f8f8f8;
+}
+.r_work {
+  border: none;
+  color: #8e8e8e;
+}
+.r_work {
+  --bs-nav-link-color: #8e8e8e;
+  --bs-nav-link-hover-color: #333333;
+  justify-content: center;
+}
+/* tab content */
+.r_work_img {
+  position: relative;
+}
+.r_work_img img {
+  width: 100%;
+  display: block;
+}
+.r_work_overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(51, 51, 51, 0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+.r_work_img:hover .r_work_overlay {
+  height: 100%;
+}
+.r_work_text {
+  position: absolute;
+  bottom: -5%;
+  left: 0;
+  right: 0;
+  height: 0;
+  padding: 10px 0;
+  text-align: center;
+  background-color: white;
+  transition: 0.6s ease;
+}
+.r_work_img:hover .r_work_text {
+  height: 20%;
+}
+.r_work_overlay span {
+  position: absolute;
+  bottom: -15%;
+  left: 45%;
+  font-size: 60px;
+  font-weight: 300;
+  color: white;
+  transition: 0.7s ease;
+}
+.r_work_img:hover .r_work_overlay span {
+  bottom: 200px;
+  left: 45%;
+}
+/* recent work end */
+
+/* why choose nipro start */
+.serv {
+  border-bottom: 1px solid #8e8e8e;
+  padding-bottom: 20px;
+  transition: 0.5s;
+}
+.serv:hover {
+  border-bottom-color: #333333;
+}
+.serv_head {
+  text-align: start;
+  display: flex;
+}
+.serv_head span {
+  font-size: 50px;
+  color: #8e8e8e;
+  transition: 0.5s;
+}
+.serv:hover .serv_head span {
+  color: #333333;
+}
+.serv_head p {
+  display: inline-block;
+  line-height: 50px;
+  text-align: center;
+  color: #8e8e8e;
+  padding-left: 20px;
+  transition: 0.3s;
+}
+.serv:hover .serv_head p {
+  color: #333333;
+}
+/* why choose nipro end */
+
+/* who work with us start */
+.w_work_mb{
+    padding-bottom: 100px;
+}
+.w_work {
+  background-image: url(../image/parallax-2.jpg);
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.w_work_overlay {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0) 35%, rgba(255,255,255,1) 90%);
+}
+/* person */
+.person_blog{
+    position: relative;
+    background-color: #fff;
+    transition: 0.5s;
+}
+.w_work_img img{
+    width: 100%;
+}
+/* inner social media */
+.inner_s_media{
+    background-color: #fff;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.person_blog:hover .inner_s_media{
+    opacity: 1;
+}
+.inner_s_media ul{
+    margin: 0;
+    padding: 8px 10px;
+    border-right: 1px solid transparent;
+    transition: 0.5s;
+}
+.inner_s_media ul:hover{
+    border-color: #333333;
+}
+.inner_s_media ul li{
+    list-style: none;
+}
+.inner_s_media ul li a{
+    justify-content: center;
+    text-decoration: none; 
+}
+
+.inner_s_media ul li a i{
+    color: #8e8e8e;
+    background-color: #fff;
+    font-size: 26px;
+    padding: 0;
+    border: none;
+    transition: 0.5s;
+}
+.inner_s_media ul li a i:hover{
+    color: #333333;
+}
+
+/* work text */
+.w_work_text{
+    padding: 15px 0 15px 20px;
+}
+/* who work with us end */
+
+
+
+/* best pricing start */
+/* border */
+.b_pricing{
+    border: 1px solid #8e8e8e;
+    padding: 0 30px;
+    position: relative;
+    transition: 0.5s;
+}
+.b_pricing:hover{
+    border-color: #333333;
+}
+/* best pricing text */
+.b_basic{
+    position: absolute;
+    top: -15px;
+    background-color: #fff;
+    padding: 5px;
+}
+.pricing_sub{
+    padding: 40px 0 20px;
+}
+.b_detial{
+    line-height: 40px;
+}
+/* sign up */
+.b_sign_up{
+    text-align: center;
+    border: 1px solid #8e8e8e;
+    margin: 30px 0;
+    padding: 10px 0;
+    transition: 0.5s;
+}
+.b_pricing:hover .b_sign_up{
+    color: #333333;
+    border-color: #333333;
+}
+/* sign up */
+.html_tem{
+    padding: 10px 0;
+}
+.buy_now{
+    text-align: center;
+    border: 1px solid #8e8e8e;
+    margin-left: 30%;
+    padding: 10px 0;
+    transition: 0.5s;
+}
+.buy_now:hover{
+    color: #333333;
+    border-color: #333333;
+}
+/* best pricing end */
+
+
+/* client review start */
+.client_rev_f{
+  border: 1px solid #8e8e8e;
+}
+/* client image */
+.client_rev_f_img{
+  margin: 30px;
+  position: relative;
+}
+.client_rev_f_img img{
+  width: 100%;
+}
+.client_rev_f_img span{
+  color: #333333;
+  font-size: 35px;
+  font-weight: 700;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+/* client text */
+.client_rev_f_text{
+  margin: 30px;
+}
+.client_rev_f_text h2{
+  font-weight: 400;
+  color: #8e8e8e;
+  padding: 20px 0;
+}
+.client_rev_para{
+  padding: 40px 0;
+}
+/* slide */
+.client_rev_s{
+  border: 1px solid #8e8e8e;
+  height: 100%;
+}
+.h_line_p{
+  height: 200px;
+  padding: 87px 0;
+}
+.h_line {
+  border: 1px solid #8e8e8e;
+  width: 20px;
+  height: 2px;
+  margin: 5px auto;
+}
+.h_line_m {
+  border-color: #333333;
+  width: 25px;
+}
+.slide_prev {
+  width: 100%;
+  border: none;
+  color: #8e8e8e;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 0;
+  transition: 0.3s;
+}
+.slide_prev p{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.slide_prev:hover {
+  color: #333333;
+}
+.slide_next {
+  width: 100%;
+  border: none;
+  color: #8e8e8e;
+  margin: 0 0 40px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  transition: 0.3s;
+}
+.slide_next p{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.slide_next:hover {
+  color: #333333;
+}
+/* client review end */
+
+
+
+/* contact us start */
+.contact{
+  border: 1px solid #8e8e8e;
+  position: relative;
+  padding-bottom: 40px;
+}
+.contact h1{
+  background-color: #fff;
+  margin: -30px 40% 0;
+  padding: 10px;
+}
+/* form */
+.contact_style{
+  font-size: 16px;
+  color: #8e8e8e;
+  border: none;
+  border-bottom: 1px solid #8e8e8e;
+  border-radius: 0;
+}
+.contact_style:focus {
+  color: #333333;
+  border-color: #333333;
+  box-shadow: none;
+}
+.your_masg{
+  height: 100px;
+}
+.contact_send{
+  display: flex;
+  justify-content: center;
+}
+.contact_send button{
+  color: #8e8e8e;
+  background-color: #fff;
+  border: 1px solid #8e8e8e;
+  margin: 0 auto;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+.contact_send button:hover{
+  color: #333333;
+  border-color: #333333;
+}
+.contact_send button span{
+  padding-left: 10px;
+}
+/* contact us end */
+
+
+/* footer start */
+.footer {
+  background-image: url(../image/parallax-3.jpg);
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer_overlay {
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,0) 70%, rgba(255,255,255,1) 100%);
+}
+/* footer paragraph */
+.footer_line{
+    margin: 0 49%;
+}
+.footer_para{
+  color: #fff;
+  text-align: center;
+}
+.footer_contact{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+/* contact info */
+.footer_contact ul {
+  margin: 0;
+}
+.footer_contact ul li{
+  list-style: none;
+}
+.footer_contact ul li a{
+  justify-content: center;
+  text-decoration: none; 
+}
+.footer_contact ul li a i{
+  color: #fff;
+  font-size: 26px;
+  padding: 10px 15px;
+  border: 1px solid #fff;
+  transition: 0.5s;
+}
+.footer_contact ul li a i:hover{
+  color: #333333;
+  border-color: #fff;
+  background-color: #fff;
+}
+/* copyrights */
+.copy_right{
+  border-top: 1px solid #fff;
+}
+.copy_right_p p{
+  color: #fff;
+}
+.copy_right_p p a{
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+}
+.copy_right_link ul{
+  margin: 0;
+  padding: 0;
+}
+.copy_right_link ul li{
+  list-style: none;
+}
+.copy_right_link ul li a{
+  justify-content: center;
+  text-decoration: none; 
+  text-align: center;
+}
+.copy_right_link ul li a p{
+  color: #fff;
+}
+/* footer end */

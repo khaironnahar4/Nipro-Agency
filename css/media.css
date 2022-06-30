@@ -1,0 +1,439 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .head_text {
+        font-size: 26px;
+    }
+    .sec_marg {
+        margin-top: 60px;
+    }
+    .in_marg {
+        margin-top: 20px;
+    }
+    /* navbar */
+    .nav_list{
+        display: block;
+      }
+    .nav ul li {
+        margin: 0 5px;
+    }
+    .nav ul li a {
+        text-align: end;
+    }
+    .nipro_agency h1 {
+        font-size: 25px !important;
+    }
+    .search_btn {
+        display: flex;
+        justify-content: center;
+    }
+    .src_menu {
+        top: 30px !important;
+        left: -230px !important;
+        min-width: 270px;
+    }
+     /* banner */
+     .banner, .w_work, .footer{
+        background-attachment: scroll;
+    }
+    .banr_text h1 {
+        font-size: 40px;
+    }
+    .banr_text {
+        margin: 70px 0 40px;
+    }
+    .banr_text p {
+        line-height: 20px;
+    }
+    .lrn_m h2 {
+        font-size: 16px;
+    }
+    .lrn_m {
+        width: 50%;
+        padding: 10px 10px;
+    }
+    /* about me */
+    .abt_m {
+        width: 51%;
+        padding: 10px 10px;
+        margin: 20px auto 0;
+    }
+    .abt_m h2 {
+        font-size: 16px;
+    }
+    /* recent work */
+    .r_work_img:hover .r_work_overlay span {
+        bottom: 150px;
+        left: 42%;
+    }
+    .r_work_img:hover .r_work_text{
+        height: 24%;
+    }
+    /* why choose nipro */
+   .serv_head {
+        justify-content: center;
+    }
+    .serv p{
+        text-align: center;
+    }
+    /* who work with us */
+    .w_work_mb{
+        padding-bottom: 60px;
+    }
+    /* best pricing */
+    .html_tem {
+        padding: 0;
+        text-align: center;
+    }
+    .buy_now {
+        margin: 0 30px;
+    }
+     /* client review */
+     .client_rev_f_img {
+        margin: 30px 15% 0;
+    }
+    .client_rev_f_text {
+        text-align: center;
+    }
+    .client_rev_para{
+        padding: 20px 0;
+    }
+    /* client review slide */
+    .slide_prev p, .slide_next p{
+        writing-mode: horizontal-tb;
+    }
+    .slide_prev, .slide_next{
+        margin: 20px 0;
+    }
+    .h_line_p {
+        height: 100%;
+        padding: 0;
+        margin: 0 40%;
+    }
+    .h_line {
+        width: 2px;
+        height: 20px;
+        margin: 20px 0;
+        display: inline-block;
+    }  
+    /* contact us */
+    .contact h1 {
+        margin: -25px 18% 0;
+    }
+    /* footer */
+    .footer_contact {
+        padding-bottom: 60px;
+    }
+    .copy_right_p p {
+        text-align: center;
+        margin: 0 15px;
+    }
+    .footer_contact ul {
+        padding: 5px;
+    }
+    .footer_contact ul li a i {
+        font-size: 20px;
+        padding: 8px 10px;
+    }
+    .copy_right_link {
+        display: flex;
+        justify-content: center;
+    }
+    .copy_right_link ul:first-child{
+        padding: 0;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sec_marg {
+        margin-top: 75px;
+    }
+    .in_marg {
+        margin-top: 25px;
+    }
+    /* navbar */
+    .nav_list{
+        display: block;
+      }
+    .nav ul li {
+        margin: 0 5px;
+    }
+    .nav ul li a {
+        text-align: end;
+    }
+    .nipro_agency h1 {
+        font-size: 28px !important;
+    }
+    .search_btn {
+        display: flex;
+        justify-content: center;
+    }
+    .src_menu {
+        top: -15px !important;
+        left: -400px !important;
+    }
+    /* banner */
+    .banner, .w_work, .footer{
+        background-attachment: scroll;
+    }
+    .banr_text h1 {
+        font-size: 48px;
+    }
+    .banr_text {
+        margin: 100px 0 70px;
+    }
+    .lrn_m {
+        width: 33%;
+        padding: 10px 15px;
+    }  
+    /* about me */
+    .abt_m {
+        width: 32%;
+        padding: 10px 10px;
+        margin: 25px auto 0;
+    }
+    /* recent work */
+    .r_work_img {
+        margin: 0 10%;
+    }
+    /* why choose nipro */
+    .serv{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+   .serv_head {
+        justify-content: center;
+    }
+    .serv p{
+        text-align: center;
+    }
+    /* who work with us */
+    .w_work_mb{
+        padding-bottom: 75px;
+    }
+    /* best pricing */
+    .b_pricing {
+        padding: 0px 50px;
+        margin: 0 15%;
+    }
+     /* client review */
+     .client_rev_f_img {
+        margin: 30px 25% 0;
+    }
+    .client_rev_f_text {
+        text-align: center;
+    }
+    .client_rev_para{
+        padding: 20px 0;
+      }
+    /* client review slide */
+    .slide_prev p, .slide_next p{
+        writing-mode: horizontal-tb;
+    }
+    .slide_prev, .slide_next{
+        margin: 25px 0;
+    }
+    .h_line_p {
+        height: 100%;
+        padding: 0;
+        margin: 0 45%;
+    }
+    .h_line {
+        width: 2px;
+        height: 20px;
+        margin: 25px 0;
+        display: inline-block;
+    }
+    /* contact us */
+    .contact h1 {
+        margin: -30px 30% 0;
+    }
+    /* footer */
+    .footer_contact {
+        padding-bottom: 75px;
+    }
+    .copy_right_p p {
+        text-align: center;
+    }
+    .copy_right_link {
+        display: flex;
+        justify-content: center;
+    }
+    .copy_right_link ul:first-child{
+        padding: 0;
+    }
+        
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* navbar */
+    .nav_list{
+        display: block;
+      }
+    .nav ul li {
+        margin: 0 5px;
+    }
+    .nav ul li a {
+        text-align: end;
+    }
+    .nipro_agency h1 {
+        font-size: 28px !important;
+    }
+    .search_btn {
+        display: flex;
+        justify-content: center;
+    }
+    .src_menu {
+        top: -15px !important;
+        left: -400px !important;
+    }
+    /* banner */
+    .banner, .w_work, .footer{
+        background-attachment: scroll;
+    }
+    .banr_text h1 {
+        font-size: 50px;
+    }
+    .banr_text {
+        margin: 110px 0 80px;
+    }
+    .lrn_m {
+        width: 26%;
+        padding: 10px 15px;
+    }
+    /* welcome */
+    .sec_marg {
+        margin-top: 80px;
+    }
+     /* about me */
+     .abt_m {
+        width: 27%;
+        margin: 30px auto 0;
+    }
+    /* recent work */
+    .hg_marg {
+        margin-top: 90px;
+    }
+    /* client review */
+    .client_rev_f_img {
+        margin: 30px 25% 0;
+    }
+    .client_rev_f_text {
+        text-align: center;
+    }
+    .client_rev_para{
+        padding: 25px 0;
+    }
+    /* client review slide */
+    .slide_prev p, .slide_next p{
+        writing-mode: horizontal-tb;
+    }
+    .slide_prev, .slide_next{
+        margin: 30px 0;
+    }
+    .h_line_p {
+        height: 100%;
+        padding: 0;
+        margin: 0 46%;
+    }
+    .h_line {
+        width: 2px;
+        height: 20px;
+        margin: 30px 0;
+        display: inline-block;
+    }
+    /* contact us */
+    .contact h1 {
+        margin: -30px 35% 0;
+    }
+    /* footer */
+    .footer_contact {
+        padding-bottom: 80px;
+    }
+    .copy_right_p p {
+        text-align: center;
+    }
+    .copy_right_link {
+        display: flex;
+        justify-content: center;
+    }
+    .copy_right_link ul:first-child{
+        padding: 0;
+    }
+    
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .head_text{
+        font-size: 28px;
+    } 
+    /* banner */
+    .banr_text h1 {
+        font-size: 50px;
+    }
+    .banr_text {
+        margin: 150px 0 110px;
+    }
+    .lrn_m {
+        width: 34%;
+        padding: 15px 20px;
+    }
+    /* about me */
+    .about_me{
+        padding: 0 10px;
+    }
+    .abt_m {
+        width: 38%;
+        padding: 10px 15px;
+    }
+     /* about me */
+     .abt_m {
+        width: 40%;
+    }
+    /* best pricing */
+    .b_pricing {
+        padding: 0 5px 0 30px;
+    }
+    .b_sign_up {
+        margin: 30px 25px 30px 0;
+    }
+    /* client review */
+    .client_rev_f_text h2 {
+        padding: 10px 0;
+    }
+    .client_rev_para{
+        padding: 15px 0;
+      }
+    /* contact us */
+    .contact h1 {
+        margin: -30px 39% 0;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    .banr_text h1 {
+        font-size: 58px;
+    }
+    .lrn_m {
+        width: 32%;
+    }
+    /* about me */
+    .abt_m {
+        width: 34%;
+    }
+    /* client review */
+    .client_rev_para{
+        padding: 30px 0;
+      }
+
+}
+
+/* // Extra Extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
